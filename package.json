@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-info",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "puppeteer": "^22.10.0"
+  }
+}
