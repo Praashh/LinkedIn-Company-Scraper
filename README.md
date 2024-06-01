@@ -17,7 +17,7 @@ A tool that scraps company followers and employees on LinkedIn.
 - enter your API key for proxy rotation.   
 - for starting server and test using API.
 
-- pass ` "companyName":"${company name or company domain}"` in request body.
+- pass ` "companyName":"${company name or company domain}" and "location":"${location of the company}"` in request body.
 
 ```bash
   npm run start

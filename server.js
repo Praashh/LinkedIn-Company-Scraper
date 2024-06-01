@@ -15,11 +15,11 @@ app.post("/search-company", async(req, res)=>{
     
     // Example of req.body in action
     // Assuming req.body = { companyName: 'swiggy.com' };
-    const { companyName } = req.body;
+    const { companyName, location } = req.body;
     const extractedCompanyName = extractCompanyName(companyName);
     console.log(extractedCompanyName); // Output should be: 'swiggy'
     try {
-        const result = await scrapeLinkedIn(extractedCompanyName);
+        const result = await scrapeLinkedIn(extractedCompanyName, location);
         if(!result){
             res.status(400).json({msg:"Someting Went Wrong with Scrapping!"});
         }else{
