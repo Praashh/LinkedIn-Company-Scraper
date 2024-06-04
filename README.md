@@ -28,6 +28,9 @@ A tool that scraps company followers and employees on LinkedIn.
   npm run dev
 ```
 
+## Demo
+[![Watch the video](https://ideogram.ai/assets/image/lossless/response/EqOT-hi1TJuV73PCjA99AA)](https://youtu.be/64fcbIze0rs?si=rF87hNt0DVjHNxOP)
+
 
 ## Authors
 
